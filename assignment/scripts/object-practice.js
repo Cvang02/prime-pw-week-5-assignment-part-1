@@ -26,7 +26,7 @@ console.log('A little about me:', me);
 */
 
 let fullName = me.firstName + ' ' + me.lastName;
-console.log (fullName);
+console.log ('My full name is:',fullName);
 
 
 /* 3. Nested arrays
@@ -36,12 +36,12 @@ console.log (fullName);
 
 let food = {
   firstFavorite:['Japanese Ramen','Korean BBQ','Korean Fried Chicken'],
-  lastFavorite1:['Pinapple Pizza','Beans','Salads']
+  lastFavorite:['Pinapple Pizza','Beans','Salads']
 }
 
 console.log (food)
 console.log (food.firstFavorite);
-console.log (food.lastFavorite1);
+console.log (food.lastFavorite);
 
 
 
